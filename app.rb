@@ -11,7 +11,7 @@ get '/new' do
   erb  :create_puppy
 end
 
-post '/new' do
+post '/' do
   erb  :display_puppy
 end
 
