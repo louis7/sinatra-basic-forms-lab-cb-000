@@ -9,4 +9,7 @@ attr_accessor :name,:breed, :months_old
       @breed = breed
       @months_old = months_old
     end
+
+
+    
 end
