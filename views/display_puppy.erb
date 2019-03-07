@@ -1,5 +1,9 @@
-<body>
-  <p>Puppy Name: <%= @new_puppy.name %></p>
-  <p>Puppy Breed: <%= @new_puppy.breed %></p>
-  <p>Puppy Age: <%= @new_puppy.age %></p>
-</body>
+class Puppy
+  attr_accessor :name, :breed, :age
+
+  def initialize(name, breed, age)
+    @name = name
+    @breed = breed
+    @age = age
+  end
+end
